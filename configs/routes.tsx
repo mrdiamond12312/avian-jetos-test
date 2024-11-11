@@ -1,25 +1,28 @@
 import { lazy } from 'react';
-import { createBrowserRouter } from 'react-router-dom';
+import { createBrowserRouter, Navigate } from 'react-router-dom';
 
 import { path } from '@/constants/path';
-
-import Dashboard from '@/layouts/DashboardLayout';
-
-const NotFound = lazy(() => import('@/pages/not-found'));
+import DashboardLayout from '@/layouts/DashboardLayout';
+import NotFound from '@/pages/not-found';
 
 export const router = createBrowserRouter([
   {
     path: path.HOMEPAGE,
-    element: <Dashboard />,
+    element: <DashboardLayout />,
     children: [
-      // {
-      //   path: path.HOMEPAGE,
-      //   element: <Navigate replace to={(path)} />,
-      // },
-      // {
-      //   path: (path),
-      //   lazy: () => lazyRouteImport("pages/TermsOfUse"),
-      // },
+      {
+        index: true,
+        path: '',
+        element: <Navigate to={path.DASHBOARD} replace />,
+      },
+      {
+        path: path.DASHBOARD,
+        element: <></>,
+      },
+      {
+        path: '*',
+        element: <NotFound />,
+      },
     ],
   },
 
