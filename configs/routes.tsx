@@ -5,7 +5,7 @@ import { path } from '@/constants/path';
 import DashboardLayout from '@/layouts/DashboardLayout';
 import NotFound from '@/pages/not-found';
 
-const UnderDevelopement = lazy(() => import('@/pages/under-developement'));
+const UnderDevelopment = lazy(() => import('@/pages/under-development'));
 const Dashboard = lazy(() => import('@/pages/dashboard'));
 
 export const router = createBrowserRouter([
@@ -24,27 +24,27 @@ export const router = createBrowserRouter([
       },
       {
         path: path.ANALYTICS,
-        element: <UnderDevelopement />,
+        element: <UnderDevelopment />,
       },
       {
         path: path.MESSAGE,
-        element: <UnderDevelopement />,
+        element: <UnderDevelopment />,
       },
       {
         path: path.PERSONAL,
-        element: <UnderDevelopement />,
+        element: <UnderDevelopment />,
       },
       {
         path: path.SETTING,
-        element: <UnderDevelopement />,
+        element: <UnderDevelopment />,
       },
       {
         path: path.WALLET,
-        element: <UnderDevelopement />,
+        element: <UnderDevelopment />,
       },
       {
         path: path.TRANSACTIONS,
-        element: <UnderDevelopement />,
+        element: <UnderDevelopment />,
       },
       {
         path: '*',
