@@ -3,7 +3,6 @@ import { Card, DollarCircle, Wallet1, Wallet3 } from 'iconsax-react';
 import React from 'react';
 
 import Statistic, { IStatisticProps } from '@/components/Statistic';
-import Loading from '@/loading';
 
 const Dashboard: React.FC = () => {
   const informations: IStatisticProps[] = [
