@@ -44,6 +44,9 @@ npm run preview
 
 - Navigate to `http://localhost:4173`
 
+## Lighthouse Preview (based on built environment):
+![image](https://github.com/user-attachments/assets/a5535142-4c8c-4b2b-8bbb-5664c821e3e7)
+
 ## Packages:
 
 | package            | Description                                          |
