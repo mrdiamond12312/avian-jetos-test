@@ -1,4 +1,3 @@
-import { MenuProps } from 'antd/lib';
 import {
   Element3,
   PresentionChart,
@@ -8,9 +7,8 @@ import {
   Wallet2,
   WalletMinus,
 } from 'iconsax-react';
-type MenuItem = Required<MenuProps>['items'][number];
 
-export const dashboardMenuItems: MenuItem[] = [
+export const dashboardMenuItems = [
   {
     key: '/dashboard',
     label: 'Dashboard',
