@@ -1,9 +1,9 @@
 import { Col, Row } from 'antd/lib';
 import { Card, DollarCircle, Wallet1, Wallet3 } from 'iconsax-react';
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 import Statistic, { IStatisticProps } from '@/components/Statistic';
-import Loading from '@/loading';
 
 const Dashboard: React.FC = () => {
   const informations: IStatisticProps[] = [
@@ -30,6 +30,9 @@ const Dashboard: React.FC = () => {
   ];
   return (
     <div className="w-full p-6">
+      <Helmet>
+        <title>Dashboard | Avian JETOS Assessment</title>
+      </Helmet>
       <Row gutter={[24, 24]}>
         {informations.map((info) => (
           <Col span={24} md={12} xl={6} key={info.title}>
