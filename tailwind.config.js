@@ -3,6 +3,7 @@ export default {
     './src/pages/**/*.tsx',
     './src/components/**/*.tsx',
     './src/layouts/**/*.tsx',
+    './src/loading.tsx',
     './index.html',
   ],
   theme: {
@@ -41,14 +42,8 @@ export default {
         'neutral-9': '#2A2A2B',
         'neutral-10': '#000D0B',
 
-        'ebony-1': '#F6F7F9',
-        'ebony-2': '#ECEEF2',
-        'ebony-3': '#D6DAE1',
-        'ebony-4': '#B1B9C8',
-        'ebony-5': '#8794A9',
-        'ebony-6': '#536076',
-        'ebony-7': '#444E60',
-        'ebony-8': '#343A46',
+        'ebony-7': '#C9C9C9',
+        'ebony-8': '#9E9E9E',
         'ebony-9': '#282C35',
         'ebony-10': '#1A1C22',
 
