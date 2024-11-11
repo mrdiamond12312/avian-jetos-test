@@ -3,7 +3,7 @@ import { Link, Outlet } from 'react-router-dom';
 
 import { path } from '@/constants/path';
 
-const NavBar: React.FC = () => {
+const DashboardLayout: React.FC = () => {
   return (
     <div className="flex flex-col min-h-[100vh]">
       <div className="px-12 bg-neutral-3 h-20 text-white flex flex-row items-center justify-between sticky top-0 left-0 z-10">
@@ -22,4 +22,4 @@ const NavBar: React.FC = () => {
   );
 };
 
-export default NavBar;
+export default DashboardLayout;
