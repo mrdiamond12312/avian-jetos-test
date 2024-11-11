@@ -1,19 +1,9 @@
-# ViteJS TypeScript BoilerPlate
+# Avian JETOS Assessment
+This assessment repository implements the UI Webpage based on the [provided Figma Design](https://www.figma.com/design/GqCdwzvELoeZd9Spj3GKxX/Font-end-Testing?node-id=0-1&node-type=canvas&t=UTjaVAk4c4E1tHKR-0).
 
-## Packages:
+Demo: https://avian-jetos-assessment.netlify.app/
 
-| Framework          | Description                                          |
-| ------------------ | ---------------------------------------------------- |
-| antd               | Ant Design Components                                |
-| redux-toolkit      | Global state Management                              |
-| redux-persist      | Persist in local storage if needed                   |
-| react-helmet       | Help with SEO and head title                         |
-| react-router-dom   | Help with Navigation                                 |
-| classNames         | className state management, compatible with tailwind |
-| urlcat             | conventional for API Path/URL replacement            |
-| tailwind & less    | tailwind and less with preprocessor config           |
-| eslint             | tracking code and convention                         |
-| husky & commitlint | linting towards git commit messages                  |
+![image](https://github.com/user-attachments/assets/c851de9b-ebf5-4a3f-ad88-e3968326a023)
 
 ## How to run:
 
@@ -37,6 +27,38 @@ npm run dev
 ```
 
 - Navigate to `http://localhost:3000`
+
+## Run with build:
+
+- Building the project
+
+```
+npm run build
+```
+
+- Run the Built Project
+
+```
+npm run preview
+```
+
+- Navigate to `http://localhost:4173`
+
+## Packages:
+
+| package            | Description                                          |
+| ------------------ | ---------------------------------------------------- |
+| iconsax-react      | [Iconsax React Icons](https://iconsax-react.pages.dev/)|
+| antd               | Ant Design Components                                |
+| redux-toolkit      | Global state Management                              |
+| redux-persist      | Persist in local storage if needed                   |
+| react-helmet       | Help with SEO and head title                         |
+| react-router-dom   | Help with Navigation                                 |
+| classNames         | className state management, compatible with tailwind |
+| urlcat             | conventional for API Path/URL replacement            |
+| tailwind & less    | tailwind and less with preprocessor config           |
+| eslint             | tracking code and convention                         |
+| husky & commitlint | linting towards git commit messages                  |
 
 ## Folder Structure
 
