@@ -10,7 +10,7 @@ const DashboardTitle: React.FC = () => {
     pathname.includes(menuItem?.key as string),
   );
 
-  return <h1 className="text-body-2-semibold">{headerTitle?.label ?? ''}</h1>;
+  return <h1 className="text-body-2-semibold hidden md:flex">{headerTitle?.label ?? ''}</h1>;
 };
 
 export default DashboardTitle;
