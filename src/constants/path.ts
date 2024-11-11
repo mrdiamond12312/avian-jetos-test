@@ -1,7 +1,7 @@
 export enum path {
   HOMEPAGE = '/',
   DASHBOARD = '/dashboard',
-  TRANSACTIONs = '/transactions',
+  TRANSACTIONS = '/transactions',
   WALLET = '/wallet',
   ANALYTICS = '/analytics',
   PERSONAL = '/user',

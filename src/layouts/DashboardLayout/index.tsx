@@ -12,7 +12,7 @@ import Loading from '@/loading';
 
 const DashboardLayout: React.FC = () => {
   return (
-    <div className="flex flex-row min-h-[100vh]">
+    <div className="flex flex-row min-h-[100vh] relative">
       <aside className="flex-col min-w-56 bg-ebony-10 w-56 p-6 gap-8 hidden md:flex">
         <Logo />
         <DashboardSidebarMenu />
