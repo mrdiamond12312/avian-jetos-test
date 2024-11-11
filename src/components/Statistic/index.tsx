@@ -10,7 +10,7 @@ export interface IStatisticProps {
 const Statistic: React.FC<IStatisticProps> = ({ title, value, icon }) => {
   return (
     <Flex className="bg-ebony-10 rounded-lg flex-row p-4 justify-start items-center gap-6">
-      <Flex className="bg-ebony-9 w-10 h-10 p-2.5 rounded-lg items-center justify-center">
+      <Flex className="bg-ebony-9 w-10 h-10 p-2.5 rounded-lg items-center justify-center text-success-5">
         {icon}
       </Flex>
       <Flex className="flex-col">
