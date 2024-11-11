@@ -8,7 +8,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Nunito', 'ui-sans-serif'],
+        poppins: ['Poppins', 'ui-sans-serif'],
+        sans: ['ui-sans-serif'],
         serif: ['ui-serif'],
       },
       keyframes: {
