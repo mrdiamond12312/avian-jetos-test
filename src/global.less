@@ -47,5 +47,39 @@
 }
 
 @layer components {
+  .ant-menu.custom-sidebar-menu {
+    @apply bg-transparent flex flex-col gap-3 text-body-3-regular relative w-full;
+    border-inline-end: none !important;
 
+    .ant-menu-item {
+      @apply w-full m-0 h-9 flex flex-row items-center text-neutral-1 overflow-visible;
+
+      &:not(.ant-menu-item-selected):active {
+        @apply bg-transparent;
+      }
+
+      &:not(.ant-menu-item-selected):hover {
+        @apply text-neutral-4;
+      }
+
+      .ant-menu-title-content {
+        margin-inline-start: 16px;
+        @apply h-auto text-body-3-regular;
+      }
+    }
+
+    .ant-menu-item-selected {
+      @apply text-success-5 bg-transparent text-body-3-semibold;
+
+      .ant-menu-title-content {
+        margin-inline-start: 16px;
+        @apply h-auto text-body-3-semibold;
+      }
+
+      &:after {
+        content: '';
+        @apply ~'w-1.5 h-5 bg-warning-5 rounded-l-md absolute -right-6';
+      } 
+    }
+  }
 }
