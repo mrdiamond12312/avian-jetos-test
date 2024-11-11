@@ -2,18 +2,18 @@
 
 ## Packages:
 
-| Framework                        | Description                                          |
-| -------------------------------- | ---------------------------------------------------- |
-| antd                             | Ant Design Components                                |
-| redux-toolkit                    | Global state Management                              |
-| redux-persist                    | Persist in local storage if needed                   |
-| react-helmet                     | Help with SEO and head title                         |
-| react-router-dom                 | Help with Navigation                                 |
-| classNames                       | className state management, compatible with tailwind |
-| urlcat                           | conventional for API Path/URL replacement            |
-| tailwind & less                  | tailwind and less with preprocessor config           |
-| eslint                           | tracking code and convention                         |
-| husky & commitlint               | linting towards git commit messages                  |
+| Framework          | Description                                          |
+| ------------------ | ---------------------------------------------------- |
+| antd               | Ant Design Components                                |
+| redux-toolkit      | Global state Management                              |
+| redux-persist      | Persist in local storage if needed                   |
+| react-helmet       | Help with SEO and head title                         |
+| react-router-dom   | Help with Navigation                                 |
+| classNames         | className state management, compatible with tailwind |
+| urlcat             | conventional for API Path/URL replacement            |
+| tailwind & less    | tailwind and less with preprocessor config           |
+| eslint             | tracking code and convention                         |
+| husky & commitlint | linting towards git commit messages                  |
 
 ## How to run:
 
